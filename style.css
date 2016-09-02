@@ -1,0 +1,498 @@
+body{
+	
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	
+}
+a,li,p,table{
+	
+	font-size:17px;
+	
+}
+/*av logo color and border*/
+
+#fHeader{
+	
+	color:white;
+	border:2px solid #f6cd3f;
+	padding:4px;
+}
+#fHeader2{
+	
+	color:#f6cd3f;
+}
+
+.dropdown:hover .dropdown-menu{
+	
+	display:block;
+	
+}
+.dropdown-computing {
+	
+	display:none;
+}
+.dropdown-management {
+	
+	display:none;
+}
+.dropdown-engineering {
+	
+	display:none;
+}
+.dcom:hover .dropdown-computing{
+	
+	display:block;
+}
+.dman:hover .dropdown-management{
+	
+	display:block;
+}
+.deng:hover .dropdown-engineering{
+	
+	display:block;
+}
+
+
+#logDiv{
+	
+	color:white;
+	margin-top:200px;
+	
+}
+
+/*footer class fixed*/
+.fixed {
+    z-index:6;
+	width: 100%;
+    border-top:1px solid Gainsboro ;
+	background-color:black;
+	padding:10px 20px;
+	
+}
+
+
+
+.fixed a{
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+
+.footer-left{
+	
+	
+	float:left;
+}
+
+
+.footer-right{
+	
+	
+	float:right;
+}
+.footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+
+
+.fixed form input{
+	
+	width: 400px;
+
+}
+
+
+.fCheck{
+	
+	font-size:17px;	
+}
+
+/*image gallary for event home page*/
+.setRad{
+	
+	border-radius:15px;
+}
+
+.setRad:hover{
+	border:1px solid #f6cd3f;
+	
+}
+
+/*carousel*/
+.carousel-caption{
+	font-size:20px;
+	margin:auto;
+	padding-bottom:70px;
+	
+}
+.carousel-caption h3{
+	font-size:2em;
+	
+}
+
+
+/*Create Left side bar adminPanel.php*/
+.EDnav{
+	position: fixed;
+	left:0;
+	list-style-type: none;
+    background-color: #222222;
+	margin:0px;
+	padding:0px;
+    
+	width:15%;
+    height: 100%;
+    overflow: auto;
+	
+	
+	
+}
+
+
+
+
+
+
+
+.EDnav li a{
+	display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.EDnav li a:hover{
+	
+	background-color: #f6cd3f;
+	color:black;
+}
+
+
+
+/*right side bar*/
+
+.navHead{
+	
+	display:block;
+	width:100%;
+	background-color:#f6cd3f;
+	color:#222222;
+	padding:10px;
+}
+
+.setpadding{
+	margin-bottom:150px;
+	
+}
+
+.setfont{
+	
+	font-size:17px;
+}
+
+
+/*get tickets now*/
+.gettickets{
+	
+	background-color:#01cc52;
+	color:white;
+	text-align:center;
+	padding:55px;
+}
+
+.editBtn{
+	
+	border:none;
+	border-radius:10px;
+	background-color:black;
+	color:white;
+	padding:20px 30px;
+	font-size:20px;
+}
+
+.editBtn:hover{
+	background-color:white;
+	color:black;
+}
+.gettickets h1{
+	
+	padding:10px;
+}
+
+/*get tickets setborderR is the all div border style*/
+.setBorderR{
+	
+	border:1px solid #f6cd3f;
+	box-shadow:2px 2px 2px 2px #cccccc;
+	border-radius:10px;
+	margin-bottom:50px;
+	padding:20px;
+	
+}
+
+ul.ticketsUL{
+	
+	list-style-type:none;
+	overflow: hidden;
+	margin:0px;
+	padding:0px;
+}
+
+.ticketsUL li{
+	
+	float:left;
+	padding-right:20px;
+	padding-top:20px;
+	
+	
+	  
+}
+
+.ticketsUL li a{
+	
+	
+	text-decoration:none;
+	  
+}
+
+
+.ticketsUL li.setFright{
+	float:right;
+	
+}
+
+.greenSB{
+	
+	border:none;
+	border-radius:10px;
+	background-color:#01cc52;
+	color:white;
+	padding:10px 30px;
+	font-size:20px;
+	
+}
+
+.greenSB:hover{
+	
+	
+	background-color:black;
+	color:white;
+	
+}
+
+/*about us page*/
+
+.centerAli p{
+	
+	text-align:center;
+	
+	
+	
+}
+
+.centerAli{
+	
+	text-align:center;
+	
+	
+	
+}
+
+.setBGcolor1 p{
+	
+	width:100%;
+	background-color:#4abdac;
+	padding:90px 200px;
+	font-size:21px;
+
+	
+}
+.setBGcolor2 p{
+	
+	width:100%;
+	background-color:#fd4819;
+	padding:90px 200px;
+	font-size:21px;
+
+	
+}
+.setBGcolor3 p{
+	
+	width:100%;
+	background-color:#f7b733;
+	padding:90px 200px;
+	font-size:21px;
+
+	
+}
+.setBGcolor4 p{
+	
+	width:100%;
+	background-color:#dedbe2;
+	padding:90px 200px;
+	font-size:21px;
+
+	
+}
+
+
+.container{
+	
+	margin-top:50px;
+}
+
+
+  .affix {
+      top: 0;
+      width: 100%;
+  }
+
+/*set home page font size/color home.php*/
+.homePaF ul{
+	
+	list-style-type:none;
+	margin-left:0px;
+	padding-left:0px;
+}
+.homePaF{
+	
+	font-size:27px;
+	margin-top:200px;
+	color:white;
+	
+	
+}
+  .homePaF  a{
+	  
+color:white;	  
+text-decoration:none;
+font-size:24px;
+display:block;
+  }
+  
+  .homePaF  a:hover{
+
+border:1px solid #f6cd3f;
+border-radius:10px;
+background-color:  #f6cd3f;
+padding-left:10px;
+
+
+
+
+  }
+  
+ /* Nav a remove underline*/
+.dropdown-engineering a{
+text-decoration:none;	
+	color:black;
+}
+.dropdown-computing a{
+text-decoration:none;	
+	color:black;
+}
+.dropdown-management a{
+text-decoration:none;	
+	color:black;
+}
+
+#myNavbar a:hover{
+	
+	color:#f6cd3f;
+}
+
+/*activities.php set eventsubtitle color to white*/
+.setOrngColor2{
+	
+	color:white;
+	text-decoration:none;
+	font-size:20px;}
+	
+	.setOrngColor2:hover{
+	
+
+	color:#f6cd3f;
+	text-decoration:none;
+	
+}
+	
+/*catSelectModules.php modulecode modulename*/
+.setOrngColor{
+	
+	color:#222222;
+	text-decoration:none;
+	font-size:20px;
+	
+	
+}
+
+
+.setOrngColor:hover{
+	
+
+	color:#f6cd3f;
+	text-decoration:none;
+	
+}
+
+
+.nav-pills > li.active > a {
+    background-color:#f6cd3f;
+	color:black
+}
+
+
+.nav-pills>li.active>a:hover {
+    background-color:#f6cd3f;
+}
+
+.panel{
+	
+	border-color:#f6cd3f;
+}
+
+pre{
+	background-color:white;
+	border:none;
+	
+}
+
+
+.secondCScheme{
+	
+	color:#f6cd3f;
+}
+
+
+
+/*set activities.php bg image*/
+.bgImage{
+	
+	
+	background-image:url("Images/Activities/Background/1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	color:white;
+	
+	
+	
+	
+}
+
+/*set border of activities.php containr div*/
+.setBorder{
+
+background-color:black;
+background: rgba(34, 34, 34, 0.5); border-radius:10px;
+}
+
+
+.setOrngbgColor{
+	background-color:#f6cd3f;
+	
+}
